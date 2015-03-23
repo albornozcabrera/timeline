@@ -4,31 +4,31 @@
 			"id": "04/05/2012",
 			"nombre": "Nombre 1",
 			"description" : "Lorem ipsum",
-			"imagen": "../images/flat/portfolio/1.jpg"
+			"imagen": "images/flat/portfolio/1.jpg"
 		},
 		{
 			"id": "06/05/2012",
 			"nombre": "Nombre 1",
 			"description" : "Lorem ipsum",
-			"imagen": "../images/flat/portfolio/1.jpg"
+			"imagen": "images/flat/portfolio/2.jpg"
 		},
 		{
 			"id": "08/05/2012",
 			"nombre": "Nombre 1",
 			"description" : "Lorem ipsum",
-			"imagen": "../images/flat/portfolio/1.jpg"
+			"imagen": "images/flat/portfolio/3.jpg"
 		},
 		{
 			"id": "06/06/2012",
 			"nombre": "Nombre 1",
 			"description" : "Lorem ipsum",
-			"imagen": "../images/flat/portfolio/1.jpg"
+			"imagen": "images/flat/portfolio/4.jpg"
 		},
 		{
 			"id": "08/06/2012",
 			"nombre": "Nombre 1",
 			"description" : "Lorem ipsum",
-			"imagen": "../images/flat/portfolio/1.jpg"
+			"imagen": "images/flat/portfolio/5.jpg"
 		}		
 	]
 }

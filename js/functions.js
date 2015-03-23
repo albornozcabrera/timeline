@@ -11,7 +11,7 @@ $(document).ready(function(){
 				console.log(el.nombre)
 				
 
-				$('.timelineFlatPortfolio').append('<div class="item" data-id="'+el.id+'" data-description="'+el.id+'"><a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="images/flat/portfolio/1.jpg" rel="lightbox[timeline]"><img src="images/flat/portfolio/1.jpg" alt="" /></a><div class="read_more" data-id="'+el.id+'">read_more</div></div><div class="item_open" data-id="'+el.id+'" data-access="ajax-content.html"><div class="item_open_content"><img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="" /></div></div>')
+				$('.timelineFlatPortfolio').append('<div class="item" data-id="'+el.id+'" data-description="'+el.id+'"><a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="'+el.imagen+'" rel="lightbox[timeline]"><img src="'+el.imagen+'" alt="" /></a><div class="read_more" data-id="'+el.id+'">read_more</div></div><div class="item_open" data-id="'+el.id+'" data-access="ajax-content.html"><div class="item_open_content"><img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="" /></div></div>')
 
 			})
 
@@ -19,7 +19,7 @@ $(document).ready(function(){
 		complete: function(){
 			$('.tl3').timeline({
                 openTriggerClass: '.read_more',
-                startItem: '08/05/2012',
+                startItem: '06/05/2012',
                 closeText: 'x'
             });
             $('.tl3').on('ajaxLoaded.timeline', function(e) {

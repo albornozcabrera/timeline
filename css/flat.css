@@ -10,11 +10,11 @@
 /* -----------------------------------
  TIMELINE FLAT PORTFOLIO 
  ---------------------------------- */
-
+/*posicion de boton red_more*/
 .timelineFlat.timelineFlatPortfolio .item .read_more {
 	margin-top:20px;
 }
-
+/*contorno de contenido*/
 .timelineFlat.timelineFlatPortfolio .item,
 .timelineFlat.timelineFlatPortfolio .item_open {
 	height: 427px;
