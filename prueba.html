@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ventana modal</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript">
+		function openWindows(){
+			$('.ventana').slideDown("slow");
+		}
+		function closeWindows(){
+			$('.ventana').slideUp("fast");
+		}
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="ventana">
+			<h1>Vetana Modal</h1>
+			<div class="form">
+				<div class="cerrar"><a href="javascript:closeWindows();"> cerrar X</a></div>
+				<h1>Formulario Login</h1>
+				<form method="post" action="data.json">
+					<table>
+						<tr>
+							<td>ID: </td>
+							<td><input type="text" name="id" id="id"></td>
+						</tr>
+						<tr>
+							<td>nombre: </td>
+							<td><input type="text" name="nombre" id="nombre"></td>
+						</tr>
+						<tr>
+							<td>Descripcion: </td>
+							<td><input type="text" name="descripcion" id="descripcion"></td>
+						</tr>
+						<tr>
+							<td>Imagen: </td>
+							<td><input type="text" name="imagen" id="imagen"></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><input type="submit" valie="Ingresar"></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+		<h1>Fondo de vetana</h1>
+		<h2><a href="javascript:openWindows();">Logueo</a></h2>
+
+		<p>contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. contenido de parrafo para poder ver como funciona las ventanas modales. </p>
+	</div>
+	
+</body>
+</html>

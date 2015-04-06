@@ -1,34 +1,64 @@
 {
 	"pruebas":[
 		{
+			"code" : "0",
 			"id": "04/05/2012",
-			"nombre": "Nombre 1",
-			"description" : "Lorem ipsum",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...",
 			"imagen": "images/flat/portfolio/1.jpg"
 		},
 		{
+			"code" : "1",
 			"id": "06/05/2012",
-			"nombre": "Nombre 1",
-			"description" : "Lorem ipsum",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...",
 			"imagen": "images/flat/portfolio/2.jpg"
 		},
 		{
+			"code" : "2",
 			"id": "08/05/2012",
-			"nombre": "Nombre 1",
-			"description" : "Lorem ipsum",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...",
 			"imagen": "images/flat/portfolio/3.jpg"
 		},
 		{
+			"code" : "3",
 			"id": "06/06/2012",
-			"nombre": "Nombre 1",
-			"description" : "Lorem ipsum",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...",
 			"imagen": "images/flat/portfolio/4.jpg"
 		},
 		{
+			"code" : "4",
 			"id": "08/06/2012",
-			"nombre": "Nombre 1",
-			"description" : "Lorem ipsum",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...",
 			"imagen": "images/flat/portfolio/5.jpg"
+		},
+		{
+			"code" : "5",
+			"id": "08/07/2012",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...",
+			"imagen": "images/flat/portfolio/6.jpg"
+		},
+		{
+			"code" : "6",
+			"id": "08/08/2012",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...",
+			"imagen": "images/flat/portfolio/7.jpg"
+		},
+		{
+			"code" : "7",
+			"id": "08/09/2012",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...",
+			"imagen": "images/flat/portfolio/8.jpg"
+		},
+		{
+			"code" : "8",
+			"id": "08/10/2012",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...",
+			"imagen": "images/flat/portfolio/9.jpg"
+		},
+		{
+			"code" : "9",
+			"id": "08/11/2012",
+			"description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...",
+			"imagen": "images/flat/portfolio/10.jpg"
 		}		
 	]
 }

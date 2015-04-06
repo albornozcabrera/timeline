@@ -12,6 +12,7 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
     <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+    <link href="css/miestilo.css" rel="stylesheet" type="text/css" />
 
     <script type="text/javascript" src="ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
@@ -20,6 +21,15 @@
     <script type="text/javascript" src="js/image.js"></script>
     <script type="text/javascript" src="js/lightbox.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript">
+        function openWindows(){
+            $('.ventana').slideDown("slow");
+        }
+        function closeWindows(){
+            $('.ventana').slideUp("fast");
+        }
+
+    </script>
 </head>
 
 <body>
@@ -33,21 +43,51 @@
         <img src="images/timeline/loadingAnimation.gif" />
     </div>
     <!-- BEGIN TIMELINE -->
-    <div class="timelineFlat timelineFlatPortfolio tl3">
+    <div class="timelineFlat timelineFlatPortfolio tl1">
         
-   <!-- <div class="item" data-id="12/05/2012" data-description="Lorem ipsum dolor sit">
-            <a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="images/flat/portfolio/2.jpg" rel="lightbox[timeline]">
-                <img src="images/flat/portfolio/2.jpg" alt="" />
-            </a>
-            <div class="read_more" data-id="12/05/2012">Read more</div>
+           <!-- <div class="item" data-id="04/05/2012" data-description="Lorem ipsum">
+                    <a class="image_rollover_bottom con_borderImage" data-description="ZOOM IN" href="images/flat/default/1.jpg" rel="lightbox[timeline]">
+                    <img src="images/flat/default/1.jpg" alt=""/>
+                    </a>
+                    <h2>MAY, 4</h2>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc...</span>
+                    <div class="read_more" data-id="04/05/2012">Read more</div>
+                </div>
+                <div class="item_open" data-id="04/05/2012" data-access="ajax-content-no-image.html">
+                    <div class="item_open_content">
+                        <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="" />
+                    </div>
+                </div>
+            -->
+    </div>
+
+    <div class="timelineFlat  ventana">
+        <div class="form">
+            <div class="cerrar"><a href="javascript:closeWindows();"> cerrar X</a></div>
+            <h1>Información del Evento</h1>
+            <form class="container-form">
+                <table class="container-table">
+                    <tr>
+                        <td>Imagen: </td>
+                        <td id="imagen"> </td>
+                    </tr>
+                    <tr>
+                        <td>fecha: </td>
+                        <td><input type="text" name="fecha" id="fecha"></td>
+                    </tr>
+                    <tr>
+                        <td>Descripción: </td>
+                        <td><textarea type="text" name="descripcion" id="descripcion" rows="3"></textarea></td>
+                    </tr>                    
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" valie="Ingresar"></td>
+                    </tr>
+                </table>
+            </form>
         </div>
-        <div class="item_open" data-id="12/05/2012" data-access="ajax-content-no-image.html">
-            <div class="item_open_content">
-                <img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="" />
-            </div>
-        </div>
- -->
-    </div>    
+    </div> 
+
 </body>
 
 </html>

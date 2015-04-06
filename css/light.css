@@ -18,7 +18,7 @@
 /* full (including months that are not shown) line holder */
 .timelineLight .t_line_holder {
 	height:80px;
-	background:url('../images/timeline/light/line.jpg') repeat-x 0px 39px;
+	background:url('lb-image/images/timeline/light/line.jpg') repeat-x 0px 39px;
 }
 
 /* 2 months are stored in one view */

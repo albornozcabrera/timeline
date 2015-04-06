@@ -17,7 +17,7 @@
 /*contorno de contenido*/
 .timelineFlat.timelineFlatPortfolio .item,
 .timelineFlat.timelineFlatPortfolio .item_open {
-	height: 427px;
+	height: 400px;
 }
 
 /* -----------------------------------
@@ -292,6 +292,7 @@
 .timelineFlat .item img {
 	margin-top:0;
 	width:100%;
+	max-height: 200px;
 }
 
 .timelineFlat .item h2 {
