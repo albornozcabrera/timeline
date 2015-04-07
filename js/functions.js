@@ -99,7 +99,7 @@ $(document).ready(function(){
 	// 		// });
 	// 	},		
 	// 	error: function(){
-	// 		console.log('No carga bien el Ajax --_--')
+	// 		console.log('No carga bien el Ajax -_-')
 	// 	}
 	// })	
 });
