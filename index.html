@@ -29,13 +29,17 @@
             $('.ventana').slideUp("fast");
         }
 
+        function habilitarContenido(){
+            $('#fecha').removeAttr('disabled');
+            $('#nombre').removeAttr('disabled');
+            $('#descripcion').removeAttr('disabled');
+            console.log('se habilitó');
+        }
+
     </script>
 </head>
 
 <body>
-    <div class="selectors">
-       	<a href="#" class="active">Flat preview</a>
-    </div>
 
     <h2 style="margin:70px 0 0;"> TimeLine Prueba</h2>
     
@@ -78,13 +82,10 @@
                     <tr>
                         <td>Descripción: </td>
                         <td><textarea type="text" name="descripcion" id="descripcion" rows="3"></textarea></td>
-                    </tr>                    
-                    <tr>
-                        <td></td>
-                        <td><input type="submit" valie="Ingresar"></td>
-                    </tr>
-                </table>
+                    </tr> 
+                </table>                 
             </form>
+            <div class="EditarEvento"><a href="javascript:habilitarContenido();" style="-webkit-user-select: none;">Editar Evento</a></div>
         </div>
     </div> 
 

@@ -199,14 +199,16 @@ td {
 	background-image: url(../images/bg-modal.png);
 	top: 0;
 	left: 0;
-	display: none;
+	display: none;	
 
 }
 .form{
+	z-index: inherit;
 	width: 300px;
-	height: 370px;
+	height: 390px;
 	padding: 25px;
 	background-color: white;
+	border-radius: 5px;
 	color: #666;
 	top: 50%;
 	left: 50%;
@@ -214,9 +216,16 @@ td {
 	margin-left: -175px;
 	margin-top: -175px;
 }
+.container-table {
+	border: 0;
+	background: white;
 
+}
 .container-table td{
 	background: #A4EAE5;
+	margin: 0 20px 20px;
+  	border-radius: 5px;
+
 }
 
 	#imagen img{
@@ -229,4 +238,12 @@ td {
 }
 .cerrar a{
 	color: red;
+}
+
+.EditarEvento {
+  margin: 0 20px 20px;
+  border-radius: 3px;
+  background: #dd5555;
+  padding: 10px;
+  max-width: 90px;
 }

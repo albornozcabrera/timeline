@@ -17,7 +17,7 @@
 /*contorno de contenido*/
 .timelineFlat.timelineFlatPortfolio .item,
 .timelineFlat.timelineFlatPortfolio .item_open {
-	height: 400px;
+	height: 370px;
 }
 
 /* -----------------------------------
@@ -307,7 +307,7 @@
 .timelineFlat .item span{
 	display:block;
 	margin:0px 20px 10px;
-	height:75px;
+	height:50px;
 }
 .timelineFlat .item .read_more {
 	font-family: Montserrat;
